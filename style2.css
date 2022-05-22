@@ -1,0 +1,124 @@
+.maincon{
+    position: absolute;
+
+}
+.onepin{
+    position: relative;
+    top: 85px;
+    left: 185px;
+    height: fit-content;
+    width: fit-content;
+
+}
+.maincon .map{
+    
+    border-style: solid;
+    border-width: 5px;
+    border-color: rebeccapurple;
+}
+.comeonhover{
+    visibility: hidden;
+}
+.onepin:hover .comeonhover{
+    visibility: visible;
+    color: blue;
+    
+
+}
+.tooltip {
+    position: relative;
+    
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+.head{
+    
+    background-color: rgb(67, 206, 213);
+    color: white;
+    font-size: 4em;
+    text-align: center;
+
+    
+
+}
+.head p{
+    margin: 0%;
+    padding: 100px;
+}
+
+.infofloors{
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    background-color: rgba(64, 165, 133, 0.163);
+}
+.infofloors{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.infofloors a{
+    color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+    
+}
+nav{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 11;
+    background-color: aqua;
+    
+}
+nav a{
+    /* padding: 20px; */
+    color:black;
+    
+    font-size: 20px;
+
+}
+.sidepanel{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    font-size: 100%;
+}
+.sidepanel a{
+    padding-left: 50px;
+}
+.main{
+    width: 720px;
+    overflow: scroll;
+}
+.sidepanel{
+    position: sticky;
+    top: 0px;
+    
+}
