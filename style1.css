@@ -23,6 +23,7 @@
     flex-wrap: nowrap;
     margin-right: auto;
     margin-left: auto;
+    visibility: hidden;
 }
 .marking div{
     align-items: flex-end ;
